@@ -18,7 +18,7 @@ class TravelViewController: UIViewController, UITableViewDelegate, UITableViewDa
         super.viewDidLoad()
         self.viagensTable.delegate = self
         self.viagensTable.dataSource = self
-
+        self.viagensTable.separatorStyle = .none
         // Do any additional setup after loading the view.
     }
     
